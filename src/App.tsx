@@ -37,7 +37,58 @@ function Home() {
       <div style={
         {background: "black"}
       }>
-        <Container style={{padding : "100px 0 100px 0"}}>
+
+        <Container style={{padding : "100px 0 50px 0"}}>
+          <Row>
+            <Col xs={5} md={3}>
+              <Card className="Card-Background">
+                <Card.Body className = "Card-Text">
+                  <Card.Title >Making work fun</Card.Title>
+                  <Card.Text>
+                    <p>It's a tough 2 years for almost all of us and PALO makes us feeling belonged
+                    with the Honey Fridays and other goodies every month. </p>
+                    <p> I personally loved the a intro pack with the a brand new Mac and other things :)</p>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={5} md={3}>
+              <Card className="Card-Background">
+                <Card.Body className = "Card-Text">
+                  <Card.Title>Happy Clients</Card.Title>
+                  <Card.Text>
+                    <p>The quality that PALO ensures in its work makes the client come back for more work.</p>
+                    <p>We have collegues who are highly skilled across tech stacks and delivering awesome work for different projects </p>
+
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={5} md={3}>
+              <Card className="Card-Background">
+                <Card.Body className = "Card-Text">
+                  <Card.Title>Sharing is Caring</Card.Title>
+                  <Card.Text>
+                    <p> The KS sessions, design thinking, technical hive meetings really help us grow personally and also on a technical level.</p>
+                     <p> Also sharing the work across Tech Community through the social platforms</p>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={5} md={3}>
+              <Card className="Card-Background">
+                <Card.Body className = "Card-Text">
+                  <Card.Title>Collobration and Mentorship</Card.Title>
+                  <Card.Text>
+                    <p> Pairing with colleagues for work which is something I enjoy at PALO</p>
+                    <p> Had a great chance to mentor and also conduct interviews</p>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </Container>
+        <Container style={{paddingBottom :"100px"}}>
           <Row>
             <Col xs={5} md={3}>
               <Image src={fun} style={{width: '100%',height : "80%"}} thumbnail/>
@@ -50,54 +101,6 @@ function Home() {
             </Col>
             <Col xs={5} md={3}>
               <Image src={collab} style={{width: '100%'}} thumbnail/>
-            </Col>
-          </Row>
-        </Container>
-        <Container style={{paddingBottom : "100px"}}>
-          <Row>
-            <Col xs={5} md={3}>
-              <Card style={{width: '18rem'}}>
-                <Card.Body>
-                  <Card.Title>Making work fun</Card.Title>
-                  <Card.Text>
-                    <p>It's a tough 2 years for almost all of us and PALO makes us feeling belonged
-                    with the Honey Fridays and other goodies every month. </p>
-                    <p> I personally loved the a intro pack with the a brand new Mac and other things :)</p>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={5} md={3}>
-              <Card style={{width: '18rem'}}>
-                <Card.Body>
-                  <Card.Title>Happy Clients</Card.Title>
-                  <Card.Text>
-                    The quality that PALO ensures in its work makes the client come back for more work
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={5} md={3}>
-              <Card style={{width: '18rem'}}>
-                <Card.Body>
-                  <Card.Title>Sharing is Caring</Card.Title>
-                  <Card.Text>
-                    <p> The KS sessions, design thinking, technical hive meetings really help us grow personally and also on a technical level.</p>
-                     <p> Also gives a chance to bond ourselves in this time</p>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={5} md={3}>
-              <Card style={{width: '18rem'}}>
-                <Card.Body>
-                  <Card.Title>Collaboration and Mentorship</Card.Title>
-                  <Card.Text>
-                    <p> Pairing with colleagues for work which is something I enjoy at PALO</p>
-                    <p> Had a great chance to mentor and also conduct interviews</p>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
             </Col>
           </Row>
         </Container>
